@@ -1,0 +1,19 @@
+{
+    "type" : "plugin-catalog", 
+    "version" : "1", 
+    "name" : "additional-pipeline-plugins", 
+    "displayName" : "Additional Pipeline plugins", 
+    "configurations" : [ 
+        {
+            "description" : "Sample plugins", 
+            "includePlugins" : { 
+                "ansible": {
+                    "url" : "https://updates.jenkins-ci.org/download/plugins/ansible/1.1/ansible.hpi"
+                },
+                "terraform": {
+                    "url" : "https://updates.jenkins-ci.org/download/plugins/terraform/1.0.10/terraform.hpi" 
+                }
+            }
+        },
+        ]
+}
